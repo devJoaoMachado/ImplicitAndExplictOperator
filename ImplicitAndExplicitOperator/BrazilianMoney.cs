@@ -26,7 +26,7 @@ namespace ConsoleAppExplicitOperator
         /// <summary>
         /// Converts string in a BrazilianMoney object
         /// </summary>
-        /// <param name="value">Examples: 10.25 / 50,00 / 100,999.99 / 100.000.99 </param>
+        /// <param name="value">Examples: 10.25 / 50,00 / 100,999.99 / 100.000,99 </param>
         public static implicit operator BrazilianMoney(string value)
         {
             try
